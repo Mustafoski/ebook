@@ -1,4 +1,4 @@
-import express from "express";
+import express from 'express';
 
 const app = express();
 
@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json()); // Parse JSON payloads
 
 // Define a sample route
-app.get("/", (req, res) => {
-  res.send("Hello, world!");
+app.get('/', (req, res) => {
+  res.send('Hello, world!');
 });
 
 // Define the port
